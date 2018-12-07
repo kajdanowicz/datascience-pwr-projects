@@ -27,7 +27,7 @@
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
-
+        {{ content }}
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
@@ -42,7 +42,7 @@
       </header>
       <section>
        <div class="row">
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-6">
             <div class="thumbnail">
               <img src="" alt="sample img">
               <div class="caption">
@@ -52,8 +52,7 @@
               </div>
             </div>
           </div>
-       </div>
-      {{ content }}
+        </div>
 
       </section>
       <footer>
