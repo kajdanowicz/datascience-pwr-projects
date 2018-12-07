@@ -16,14 +16,15 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Danologia - Projekty</h1>
+        <h1>Danologia PWr</h1>
+        <h3>Projekty</h3>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
+        {{ content }}
 <!--         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
