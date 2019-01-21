@@ -1,3 +1,8 @@
+---
+layout: stylecom
+...
+---
+
 ### Witaj! 
 
 Strona projektu StyleCom.
