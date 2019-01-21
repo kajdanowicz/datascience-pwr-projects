@@ -1,8 +1,3 @@
----
-layout: page
-...
----
-
 ### Witaj! 
 
 Strona projektu StyleCom.
